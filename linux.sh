@@ -2,10 +2,6 @@
 # @Project: 稻子网Linux工具箱
 #!/bin/bash
 
-#全局变量
-down_url=https://github.com/xinua/huicheng/blob/855f19105dba3c0f3a478598ec4c3d2c7d3360ab
-panel_path=/www/server/panel
-tools_version='1.0.0'
 
 #服务器性能测试
 vpsxn() {
