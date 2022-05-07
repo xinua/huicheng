@@ -4,7 +4,6 @@
 
 #全局变量
 down_url=https://github.com/xinua/huicheng/blob/855f19105dba3c0f3a478598ec4c3d2c7d3360ab
-btdown_url=https://download.bt.cn
 panel_path=/www/server/panel
 tools_version='1.0.0'
 
