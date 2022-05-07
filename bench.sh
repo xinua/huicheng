@@ -312,11 +312,11 @@ print_io() {
 
 print_system_info() {
 	echo " +----------------------------------------------------------------------"
-	echo " | 凌梦云 Linux 一键测速脚本 2021.09"
+	echo " | 稻子网 Linux 一键测速脚本 "
 	echo " +----------------------------------------------------------------------"
 	echo " | Powered by SuperBench"
 	echo " +----------------------------------------------------------------------"
-	echo " | Intro：https://www.lmyidc.com"	
+	echo " | Intro：https://www.daozi.net"	
 	echo " +----------------------------------------------------------------------"
 
 	echo -e " CPU 型号     : ${SKYBLUE}$cname${PLAIN}"
@@ -333,7 +333,7 @@ print_system_info() {
 }
 
 print_end_time() {
-	echo -ne " 测试完成！\n"
+	echo -ne " 稻子网提醒您：测试完成！\n"
 	end=$(date +%s) 
 	time=$(( $end - $start ))
 	if [[ $time -gt 60 ]]; then
